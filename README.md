@@ -1,8 +1,12 @@
 # Importing the advanced libraries :
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 %matplotlib inline
+
 import seaborn as sns
 # Importing the csv data through pandas and read function :
 df = pd.read_csv("diabetes.csv")
